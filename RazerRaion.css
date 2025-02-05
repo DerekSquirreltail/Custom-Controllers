@@ -1,4 +1,4 @@
-.controller.xbox {
+.controller.custom {
     background: url(https://i.imgur.com/YpUpulD.png);
     height: 579px;
     width: 754px;
@@ -7,7 +7,7 @@
 
 
 
-.xbox .triggers {
+.custom .triggers {
     width: 486px;
     height: 579px;
     position: absolute;
@@ -15,18 +15,18 @@
 	top: 2px;
 }
 
-.xbox .trigger {
+.custom .trigger {
     width: 67px;
     height: 73px;
     background: url(https://i.imgur.com/8ZajLkx.png);
     opacity: 0;
 }
 
-.xbox .trigger.left {
+.custom .trigger.left {
     float: left;
 }
 
-.xbox .trigger.right {
+.custom .trigger.right {
     float: right;
     transform: rotateY(180deg);
 }
@@ -34,7 +34,7 @@
 
 
 
-.xbox .bumpers {
+.custom .bumpers {
     width: 525px;
     height: 65px;
     position: absolute;
@@ -42,27 +42,27 @@
 	left: 114px;
 }
 
-.xbox .bumper {
+.custom .bumper {
     width: 153px;
     height: 65px;
     background: url(https://i.imgur.com/jBNRPIb.png);
     opacity: 0;
 }
 
-.xbox .bumper.left {
+.custom .bumper.left {
     float: left;
 }
 
-.xbox .bumper.right {
+.custom .bumper.right {
     float: right;
     transform: rotateY(180deg);
 }
 
-.xbox .quadrant {
+.custom .quadrant {
     background: none;
 }
 
-.xbox .back, .xbox .start {
+.custom .back, .custom .start {
     background: url(https://i.imgur.com/UPBpOsl.png);
     width: 34px;
     height: 33px;
@@ -70,82 +70,82 @@
     position: absolute;
 }
 
-.xbox .back.pressed, .xbox .start.pressed {
+.custom .back.pressed, .custom .start.pressed {
     opacity: 1;
 }
 
 
-.xbox .start {
+.custom .start {
     float: right;
 	top: -120px;
 	left: 201px;
 }
 
-.xbox .back {
+.custom .back {
     float: left;
 	top: -120px;
 	left: -96px;
 }
 
-.xbox .button{
+.custom .button{
     position: absolute;
     width:65px;
     height:65px;
     background: url(https://i.imgur.com/hz5pkTp.png);
 }
-.xbox .button.pressed{
+.custom .button.pressed{
     background-position-y: -65px;
     margin-top: 5px;
 }
-.xbox .a{
+.custom .a{
     background-position: 0px 0;
     top: 178px;
     left: -18px;
 }
-.xbox .b{
+.custom .b{
     background-position: -65px 0;
     top: 125px;
     left: 51px;
 }
-.xbox .x{
+.custom .x{
     background-position: -130px 0;
     top: 114px;
     left: -71px;
 }
-.xbox .y{
+.custom .y{
     background-position: -195px 0;
     top: 62px;
     left: -1px;
 }
 
 
-.xbox .sticks{
+.custom .sticks{
     position: absolute;
     height: 200px;
     width: 200px;
 }
-.xbox .stick{
+.custom .stick{
     position: absolute;
     width: 65px;
     height: 64px;
     background: url(https://i.imgur.com/9nQwAQe.png);
 }
-.xbox .stick.pressed.left{
+.custom .stick.pressed.left{
     background-position-y: -65px;
     top: 11px;
     left: 430px;
 }
-.xbox .stick.pressed.right{
+.custom .stick.pressed.right{
     background-position-y: -65px;
     background-position-x: -65px;
     top: 75px;
     left: 482px;
 }
-.xbox .stick.left{
+.custom .stick.left{
     top: 0;
     left: 0;
 }
-.xbox .stick.right{
+.custom .stick.right{
     top: calc(100% - 105px);
     left: calc(100% - 105px);
 }
@@ -153,45 +153,45 @@
 
 
 
-.xbox .dpad{
+.custom .dpad{
     position: absolute;
     width: 140px;
     height: 132px;
     top: 192px;
     left: 74px;
 }
-.xbox .face{
+.custom .face{
     position: absolute;
 }
 
-.xbox .face.up, .xbox .face.down{
+.custom .face.up, .custom .face.down{
     width: 98px;
     height: 70px;
 }
-.xbox .face.left, .xbox .face.right{
+.custom .face.left, .custom .face.right{
     width: 70px;
     height: 99px;
 }
 
-.xbox .face.up{
+.custom .face.up{
     background: url(https://i.imgur.com/6bqglrZ.png);
     top: 19px;
     left: 46px;
 }
 
-.xbox .face.down{
+.custom .face.down{
     background: url(https://i.imgur.com/45qVb4D.png);
     top: 85px;
     left: 46px;
 }
-.xbox .face.left{
+.custom .face.left{
     background: url(https://i.imgur.com/kc0UxLl.png);
     left: 27px;
 }
-.xbox .face.right{
+.custom .face.right{
     background: url(https://i.imgur.com/y0cFK0M.png);
     left: 93px;
 }
-.xbox .face.pressed{
+.custom .face.pressed{
 opacity 1;
 }
